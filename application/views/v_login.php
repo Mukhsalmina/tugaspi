@@ -17,14 +17,14 @@
     <!-- Custom Fonts -->
     <link href="<?php echo base_url(); ?>template/backend/sbadmin/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	
-	<center><h1>Silahkan Login<br/></h1>
-	<form action="<?php echo base_url('login/aksi_login'); ?>" method="post">		
+	<center><h1>Silahkan Login<br/></h1></center>
+	<center><form action="<?php echo base_url('login/aksi_login'); ?>" method="post">
 		<div class="container">
 		<div class="row">
     	<div class="col-md-4">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <span class="glyphicon glyphicon-lock"></span> <strong>LOGIN</strong>
+                <span class="glyphicon glyphicon-lock"></span> <strong>LOG in</strong>
             </div>
             <div class="panel-body">
 				<div class="form-group">
@@ -36,21 +36,19 @@
 				<div class="form-group">
                     <p class="col-sm-3">Password </p>
 					<div class="col-sm-8">
-						<input type="password" name="password" class="form-control" placeholder="Password">
+						<input type="password" name="Password" class="form-control" placeholder="******">
 					</div>
 				</div>
 			<div class="form-group last">
                  <div class="col-sm-offset-3 col-sm-9">
                     <button type="submit" name="proses" class="btn btn-success btn-sm">Sign in</button>
 
-
-                    <button type="reset" class="btn btn-default btn-sm">Reset</button>
                      <button><a href="<?= base_url(); ?>register/">Register</a></button>
 
                 </div>
             </div>
-	</form>
-	</center>
+	</form></center>
+
 	 <!-- jQuery -->
 	 <script src="<?php echo base_url(); ?>template/backend/sbadmin/vendor/jquery/jquery.min.js"></script>
 	<!-- Bootstrap Core JavaScript -->
